@@ -1,0 +1,7 @@
+barplotModelBased   model-based barpot of ordinal ratings
+barplotObserved     observed data barplot of ordinal ratings
+ordrating           model for ordinal ratings
+starplotModelBased  model-based starplot of ordinal ratings
+starplotObsered     observed data starplot of ordinal ratings
+tauCalculate        calculate posterior predictive probabilities of ratings
+

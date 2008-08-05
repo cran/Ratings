@@ -1,0 +1,12 @@
+useDynLib(Ratings)
+
+
+export(
+       barplotModelBased,
+       barplotObserved,
+       ordrating,
+       starplotObserved,
+       starplotModelBased,
+       tauCalculate
+       )
+
