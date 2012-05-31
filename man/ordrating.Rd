@@ -158,7 +158,6 @@ The priors used for this model are that each \eqn{\alpha_r}{alpha_r} is iid Gaus
 \examples{
 \dontrun{
 ## Mondo Times example from Ho & Quinn (nd).
-## may have to increase stack limit to run this example on some machines
 
 data(Mondo)
 
@@ -174,7 +173,7 @@ summary(ord.out)
 
 
 ## subsetting the Mondo data to include only raters who rated 5 or more 
-## outlets (should avoid any stacksize problems)
+## outlets 
 
 Mondo.sub <- Mondo[apply(!is.na(Mondo), 1, sum) >= 5, ]
 ## also getting rid of outlets that are not rated now

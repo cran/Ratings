@@ -1,5 +1,6 @@
 useDynLib(Ratings)
-
+import(coda)
+import(lattice)
 
 export(
        barplotModelBased,

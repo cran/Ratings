@@ -2,5 +2,11 @@
 // Changes and Bug Fixes
 //
 
+0.1-1 to 0.1-2
+  * using current version of Scythe library now
+  * fixed possible stack overflow problem when working with large datasets
+  * fixed issue with calls to abort() (thanks to Brian Ripley)
+  * fixed issues with Solaris C++ compatibility (thanks to Brian Ripley)
+
 0.1-1 
   * Initial version
